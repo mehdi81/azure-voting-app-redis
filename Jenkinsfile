@@ -6,11 +6,11 @@ pipeline {
     }
     
     stages {
-        stage('Branch') {
+/**        stage('Branch') {
             steps {
                 echo "$GIT_BRANCH"
             }
-        }
+        }**/
 
         stage('Docker Build'){
             steps {
